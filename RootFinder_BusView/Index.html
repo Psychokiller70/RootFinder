@@ -1,10 +1,30 @@
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BusFinder</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <link rel="stylesheet" href="design.css">
+  <title>BusFinder</title>
 </head>
 <body>
-    <h1>Welcome to BusFinder</h1>
+  <div class="box">
+    <h2>Login</h2>
+    <form > <!--action="config.html"--->
+      <div class="input-box">
+        <input type="text" name="username"  autocomplete="off" required>
+        <label for="">Username</label>
+      </div>
+      <div class="input-box">
+        <input type="email" name="email"  autocomplete="off" required>
+        <label for="">Email</label>
+      </div>
+      <div class="input-box">
+        <input type="password" name="password"  autocomplete="off" required>
+        <label for="">Password</label>
+      </div>
+        <input type="submit" value="Save">
+    </form>
+  </div>
 </body>
 </html>
